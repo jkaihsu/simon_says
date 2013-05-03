@@ -24,12 +24,12 @@ $(document).ready(function(){
   $('#clear_color').on('click', function(e){
     console.log('click on #clear_color');
 
-    $('#color_me li').each(function(i, cell){
-      $(cell).css('background-color', 'white');
-      console.log(i);
-      console.log(cell);
-    })
-
+    // $('#color_me li').each(function(i, cell){
+    //   $(cell).css('background-color', 'white');
+    //   console.log(i);
+    //   console.log(cell);
+    // })
+    $('#color_me li').css('background-color', 'white');
   })
 
 
